@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f3f0ff;
+            color: #555477;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #b9e5ff, #d8c9ff);
+            color: #625c91;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 3px 10px #ded8f5;
+        }
+
+        nav a {
+            color: #8b7bc4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #69a9d3;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 3px 12px #ded8f5;
+        }
+
+        h2 {
+            color: #9180c9;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #c9c2f5;
+            padding-bottom: 8px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #c5b7f5;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: linear-gradient(120deg, #e8f6ff, #f0eaff);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 15px;
+            border-left: 5px solid #b7cafa;
+        }
+
+        .card h3 {
+            color: #7d86bd;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #b9e5ff, #d8c9ff);
+            color: #625c91;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                margin: 5px;
+                font-size: 13px;
+            }
+
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🩵 MY PORTFOLIO 💜</h1>
+        <p>Welcome to my Portfolio ♡</p>
+    </header>
+
+    <nav>
+        <a href="#about">ประวัติส่วนตัว</a>
+        <a href="#education">การศึกษา</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+
+    <section id="about" class="profile">
+        <h2>🦋 ประวัติส่วนตัว</h2>
+
+        <img src="https://via.placeholder.com/170"
+             alt="รูปโปรไฟล์">
+
+        <h3>ชื่อ - นามสกุล : นางสาว พรชนก ไกรนัย</h3>
+        <p>ชื่อเล่น : โบว์</p>
+        <p>วันเกิด : 25 มกราคม พ.ศ.2553</p>
+        <p>อายุ : 16 ปี</p>
+        <p>งานอดิเรก : ฟังเพลง 🎧</p>
+    </section>
+
+    <section id="education">
+        <h2>📚 ประวัติการศึกษา</h2>
+
+        <div class="card">
+            <h3>💜 ระดับมัธยมศึกษา</h3>
+            <p>โรงเรียน : วัดพรหมสาคร</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>💌 ช่องทางการติดต่อ</h2>
+        <p>📧 Email : example@gmail.com</p>
+        <p>📘 Facebook : My Facebook</p>
+        <p>📷 Instagram : My Instagram</p>
+    </section>
+
+    <footer>
+        <p>🩵 © 2026 My Portfolio 💜</p>
+        <p>Made with love ♡</p>
+    </footer>
+
+</body>
+</html>
+
